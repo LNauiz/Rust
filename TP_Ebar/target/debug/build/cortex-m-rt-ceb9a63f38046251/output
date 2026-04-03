@@ -1,0 +1,8 @@
+cargo:rustc-check-cfg=cfg(armv6m)
+cargo:rustc-check-cfg=cfg(armv7m)
+cargo:rustc-check-cfg=cfg(armv8m)
+cargo:rustc-check-cfg=cfg(cortex_m)
+cargo:rustc-check-cfg=cfg(has_fpu)
+cargo:rustc-link-search=/mnt/c/Users/leona/Desktop/Rust/TD_E/target/debug/build/cortex-m-rt-ceb9a63f38046251/out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in

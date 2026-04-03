@@ -1,0 +1,15 @@
+/mnt/c/Users/leona/Desktop/Rust/TD_E/target/thumbv7em-none-eabihf/release/deps/embassy_time-2ff7937f98cb772c.d: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/fmt.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/delay.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/duration.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/instant.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/timer.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/../README.md
+
+/mnt/c/Users/leona/Desktop/Rust/TD_E/target/thumbv7em-none-eabihf/release/deps/libembassy_time-2ff7937f98cb772c.rlib: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/fmt.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/delay.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/duration.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/instant.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/timer.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/../README.md
+
+/mnt/c/Users/leona/Desktop/Rust/TD_E/target/thumbv7em-none-eabihf/release/deps/libembassy_time-2ff7937f98cb772c.rmeta: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/fmt.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/delay.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/duration.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/instant.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/timer.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/../README.md
+
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/lib.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/fmt.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/delay.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/duration.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/instant.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/timer.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/../README.md:
+
+# env-dep:DEFMT_LOG=info

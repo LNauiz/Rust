@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/mnt/c/Users/leona/Desktop/Rust/TD_E/target/release/build/defmt-6051a96a2f467441/out
+cargo:rustc-check-cfg=cfg(c_variadic)
+cargo:rustc-check-cfg=cfg(no_cas)

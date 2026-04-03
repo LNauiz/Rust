@@ -1,0 +1,1 @@
+(fn(Order) -> lexer_parser::Command {lexer_parser::Command::Order}, fn(Number) -> lexer_parser::Command {lexer_parser::Command::Number})

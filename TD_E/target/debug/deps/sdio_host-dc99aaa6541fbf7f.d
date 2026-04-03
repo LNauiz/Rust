@@ -1,0 +1,11 @@
+C:\Users\leona\Desktop\Rust\TD_E\target\debug\deps\sdio_host-dc99aaa6541fbf7f.d: C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\lib.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\common_cmd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\sd_cmd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\emmc_cmd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\common.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\sd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\emmc.rs
+
+C:\Users\leona\Desktop\Rust\TD_E\target\debug\deps\libsdio_host-dc99aaa6541fbf7f.rmeta: C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\lib.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\common_cmd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\sd_cmd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\emmc_cmd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\common.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\sd.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\emmc.rs
+
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\lib.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\common_cmd.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\sd_cmd.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\emmc_cmd.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\common.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\sd.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sdio-host-0.9.0\src\emmc.rs:

@@ -1,0 +1,1 @@
+{"rustc":13073507457223000659,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[5035005548866581691,"build_script_build",false,2040648468118863334]],"local":[{"RerunIfChanged":{"output":"debug\\build\\embedded-io-async-5f1f019f3f566463\\output","paths":["build.rs"]}}],"rustflags":[],"config":0,"compile_kind":0}
