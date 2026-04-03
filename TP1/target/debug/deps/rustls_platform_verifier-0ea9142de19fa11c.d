@@ -1,0 +1,8 @@
+/mnt/c/Users/leona/Desktop/Rust/TP1/target/debug/deps/rustls_platform_verifier-0ea9142de19fa11c.d: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/verification/mod.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/verification/others.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/../README.md
+
+/mnt/c/Users/leona/Desktop/Rust/TP1/target/debug/deps/librustls_platform_verifier-0ea9142de19fa11c.rmeta: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/verification/mod.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/verification/others.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/../README.md
+
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/lib.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/verification/mod.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/verification/others.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/../README.md:

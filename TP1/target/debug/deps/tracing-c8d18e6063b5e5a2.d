@@ -1,0 +1,12 @@
+C:\Users\leona\Desktop\Rust\TP1\target\debug\deps\tracing-c8d18e6063b5e5a2.d: C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\lib.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\macros.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\dispatcher.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\field.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\instrument.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\level_filters.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\span.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\subscriber.rs
+
+C:\Users\leona\Desktop\Rust\TP1\target\debug\deps\libtracing-c8d18e6063b5e5a2.rmeta: C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\lib.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\macros.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\dispatcher.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\field.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\instrument.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\level_filters.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\span.rs C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\subscriber.rs
+
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\lib.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\macros.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\dispatcher.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\field.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\instrument.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\level_filters.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\span.rs:
+C:\Users\leona\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tracing-0.1.44\src\subscriber.rs:

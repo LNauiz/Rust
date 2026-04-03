@@ -1,0 +1,11 @@
+/mnt/c/Users/leona/Desktop/Rust/TP1/target/debug/deps/hyper_rustls-a77afc7525e5342d.d: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/config.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector/builder.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/stream.rs
+
+/mnt/c/Users/leona/Desktop/Rust/TP1/target/debug/deps/libhyper_rustls-a77afc7525e5342d.rlib: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/config.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector/builder.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/stream.rs
+
+/mnt/c/Users/leona/Desktop/Rust/TP1/target/debug/deps/libhyper_rustls-a77afc7525e5342d.rmeta: /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/lib.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/config.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector/builder.rs /home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/stream.rs
+
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/lib.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/config.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/connector/builder.rs:
+/home/nauiz/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/hyper-rustls-0.27.7/src/stream.rs:

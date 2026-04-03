@@ -1,0 +1,8 @@
+EXPORTS
+GetLastError
+SetThreadErrorMode
+GetModuleHandleExW
+FreeLibrary
+LoadLibraryExW
+GetModuleFileNameW
+GetProcAddress
