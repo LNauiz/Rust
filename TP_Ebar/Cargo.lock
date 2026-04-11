@@ -16,6 +16,7 @@ dependencies = [
  "embassy-time",
  "embedded-hal 0.2.7",
  "panic-probe",
+ "stm32-metapac",
 ]
 
 [[package]]

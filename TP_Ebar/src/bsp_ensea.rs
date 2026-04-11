@@ -2,11 +2,15 @@
 #![no_std]
 
 use embassy_stm32::gpio::{AnyPin,Input,Output,Level,Speed,Pull};
-use embassy_stm32::Peripherals;
-use embassy_stm32::timer::qei;
+ use embassy_stm32::Peripherals;
+use embassy_stm32::timer::qei::{Qei,Config};
+use embassy_stm32::timer::Channel;
+use embassy_stm32::time::Hertz;
+use embassy_stm32::lptim::pwm::PwmPin;
 use embassy_stm32::pac::TIM2;
-
+use stm32_metapac;
 use embassy_stm32::Peri;
+use embassy_stm32::timer::low_level::CountingMode::EdgeAlignedUp;
 
 pub struct Board{
     pub bargraph_pins: Bargraph_Pins,
@@ -15,7 +19,7 @@ pub struct Board{
     pub gamepad_pins: Gamepad_Pins,
     //pub magnetometer_pins: Magnetometer_Pins,
     pub encoder_pins: Encoder_Pins,
-    //pub stepper_pins: Stepper_Pins,
+    pub stepper_pins: Stepper_Pins,
     //pub usart1_pins: Usart1_Pins,
     //pub usart2_pins: Usart2_Pins,
     //pub spi2_pins: Spi2_Pins,
@@ -27,6 +31,7 @@ pub struct Board{
 impl Board {
     // Méthode `new` qui prend les périphériques Embassy en paramètre
     pub fn new(p: Peripherals) -> Self {
+        let config = Config::default();
         let bargraph_pins = Bargraph_Pins {
             led0: Output::new(p.PC7, Level::Low, Speed::Low),
             led1: Output::new(p.PB2, Level::Low, Speed::Low),
@@ -48,11 +53,19 @@ impl Board {
 
         let encoder_pins = Encoder_Pins{
             enc_btn: Input::new(p.PA15, Pull::Up),
-            enc_a: Input::new(p.PA0, Pull::Up),
-            enc_b: Input::new(p.PA1, Pull::Up),
+            enc_hw: Qei::new(p.TIM2,p.PA0,p.PA1,config),
+
         };
 
-        Self { bargraph_pins , gamepad_pins, encoder_pins}
+        let stepper_pins = Stepper_Pins{
+            direction:Output::new(p.PA7,Level::Low, Speed::Low),
+            ms1:Output::new(p.PA11,Level::Low, Speed::Low),
+            ms2:Output::new(p.PB12,Level::Low, Speed::Low),
+            enable:Output::new(p.PA12,Level::Low, Speed::Low),
+            step:Output::new(p.PA6,Level::Low,Speed::Low),
+        };
+
+        Self { bargraph_pins , gamepad_pins, encoder_pins,stepper_pins }
     }
 }
 
@@ -67,11 +80,11 @@ pub struct Bargraph_Pins {
     pub led0: Output<'static>, //PC7
 }
 
-struct Stepper_Pins {
+pub struct Stepper_Pins {
     pub direction: Output<'static>, // PA7
     pub ms1: Output<'static>, // PA11
     pub ms2: Output<'static>, // PB12
-    pub enn: Output<'static>, // PA12
+    pub enable: Output<'static>, // PA12
     pub step: Output<'static>, // PA6
 }
 
@@ -99,8 +112,7 @@ pub struct Magnetometer_Pins {
 
 pub struct Encoder_Pins {
     pub enc_btn: Input<'static>, // PA15
-    pub enc_a: Input<'static>, // PA0
-    pub enc_b: Input<'static>, // PA1
+    pub enc_hw : Qei<'static, embassy_stm32::peripherals::TIM2>,
 }
 
 pub struct Usart1_Pins {

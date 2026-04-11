@@ -5,6 +5,7 @@ pub mod bsp_ensea;
 pub mod baragraph;
 pub mod gamepad;
 pub mod  encoder;
+pub mod stepper;
 
 use defmt::export::u32;
 use defmt::info;
@@ -16,7 +17,10 @@ use bsp_ensea::Board;
 use baragraph::Bargraph;
 use gamepad::{Gamepad,Button};
 use encoder::Encoder;
+use stepper::Stepper;
 use crate::bsp_ensea::Gamepad_Pins;
+use crate::stepper::Direction::Forward;
+use crate::stepper::MicrosteppingMode;
 
 #[embassy_executor::main]
 async fn main(_spawner: Spawner) {
@@ -26,23 +30,31 @@ async fn main(_spawner: Spawner) {
     let mut bargraph = Bargraph::new(board.bargraph_pins);
     let mut gamepad = Gamepad::new(board.gamepad_pins);
     let mut encoder = Encoder::new(board.encoder_pins);
+    let mut stepper = Stepper::new(board.stepper_pins);
     bargraph.set_range(0, 100);
     bargraph.set_value(0);
     let mut value:u32 = 0;
     let mut flag:bool = false;
+    stepper.enable();
+    stepper.set_direction(Forward);
+    stepper.set_microstepping(MicrosteppingMode::HalfStep);
+
     loop {
         embassy_time::Timer::after_millis(10).await;
-        if encoder.is_pressed() && !flag{
-            value = value + 10;
-            flag = true;
-        }
+        stepper.set_speed(1000000).await;
+        // if encoder.is_pressed() && !flag{
+        //     value = value + 10;
+        //     flag = true;
+        // }
+        //
+        // if !encoder.is_pressed() {
+        //     flag = false;
+        // }
+        // if value>100{
+        //     value=0;
+        // }
+        // bargraph.set_value(value);
+        // info!("Position is {}",encoder.get_position());
 
-        if !encoder.is_pressed() {
-            flag = false;
-        }
-        if value>100{
-            value=0;
-        }
-        bargraph.set_value(value);
     }
 }
